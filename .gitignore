@@ -1,0 +1,21 @@
+# Unity generated
+[Ll]ibrary/
+[Tt]emp/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# IDE
+.vscode/
+.idea/
+
+# VS / Rider
+*.sln
+*.slnx
+*.csproj
+*.unityproj
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
