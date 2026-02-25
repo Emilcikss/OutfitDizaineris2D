@@ -2,15 +2,25 @@ using UnityEngine;
 
 public class SfxAtskanotajs : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static SfxAtskanotajs Instance;
+
+    [SerializeField] private AudioSource sfxAvots;
+
+    private void Awake()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Atskanot(AudioClip klips, float skanums = 1f)
     {
-        
+        if (klips == null || sfxAvots == null) return;
+        sfxAvots.PlayOneShot(klips, skanums);
     }
 }
