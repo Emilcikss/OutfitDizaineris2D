@@ -13,10 +13,6 @@
 
 <br>
 
-<a href="https://github.com/USERNAME/REPO/releases/latest">
-  <img src="https://img.shields.io/badge/⬇%20Lejupielādēt%20Windows%20Build-blue?style=for-the-badge&logo=windows">
-</a>
-
 <br><br>
 
 <img src="https://img.shields.io/badge/Unity-6.3%20LTS-black?style=for-the-badge&logo=unity">
