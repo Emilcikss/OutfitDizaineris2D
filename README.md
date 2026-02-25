@@ -94,11 +94,11 @@ Projekts izstrādāts kā mācību darbs, ievērojot uzdevuma prasības par UI e
 
 <div align="center">
 
-<img src="docs/screenshot1.png" width="800">
+<img src="screens/s1.png" width="800">
 <br><br>
-<img src="docs/screenshot2.png" width="800">
+<img src="screens/s2.png" width="800">
 <br><br>
-<img src="docs/screenshot3.png" width="800">
+<img src="screens/s3.png" width="800">
 
 </div>
 
